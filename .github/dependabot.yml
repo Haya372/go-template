@@ -86,6 +86,10 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
+    groups:
+      web-dependencies:
+        patterns:
+          - "*"
 
     ignore:
       - dependency-name: "*"
